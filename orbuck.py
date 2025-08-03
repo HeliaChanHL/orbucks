@@ -55,7 +55,7 @@ def orbucksmaxxing(itemsCount, current_value=0, current_index=0, current_cost=0)
         return min_cost, best_count
 
 st.title("OR-Bucks Maximization")
-
+st.write("OR-Finishes Web Application")
 st.write("Ever want to find the cheapest OR-Bucks purchase combinations to spend every last bit of your OR-Bucks on bundles? Here's a tool for you!")
 # Default items (value in ORBucks, cost in USD)
 items = [(6250, 44.99), (2750, 21.99), (1000, 8.99)]
@@ -132,3 +132,4 @@ with footer_container:
     
     with col3:
         st.markdown("[Join OR-Finishes Discord](https://discord.gg/or-finishes)")
+
