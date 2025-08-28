@@ -156,7 +156,7 @@ with footer_container:
             </a>
                     
         """, unsafe_allow_html=True)
-        st.write("Copyright © Amelia Freeman")
+         st.write("Copyright © Amelia Freeman")
     
     
     with col3:
@@ -185,6 +185,7 @@ with footer_container:
             </a>
                     
         """, unsafe_allow_html=True)
+
 
 
 
